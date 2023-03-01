@@ -1,7 +1,13 @@
-import React from 'react'
+'use client'
 
-export default function Home() {
+import React from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
+import Header from './Component/Header'
+
+export default function mainPage() {
   return (
-    <div>Hello World</div>
+    <ChakraProvider>
+      <Header />
+    </ChakraProvider>
   )
 }
