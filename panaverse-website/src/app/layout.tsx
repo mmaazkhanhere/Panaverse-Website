@@ -1,4 +1,7 @@
 'use client'
+import { ChakraProvider, Box } from '@chakra-ui/react'
+import Footer from './Component/Footer'
+import Header from './Component/Header'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <ChakraProvider>
+        <Box bgColor='background: rgba(255, 251, 244, 1)'>
+          <Header />
+          {children}
+          <Footer />
+        </Box>
+      </ChakraProvider>
     </html>
   )
 }
