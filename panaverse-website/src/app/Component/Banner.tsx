@@ -23,7 +23,7 @@ export default function Banner() {
 
                             <Box flexBasis='50%' placeItems='center' textAlign='center' lineHeight={{ base: '17px', lg: '40px' }} mt={{ base: '5px', lg: '100px' }}>
 
-                                <Heading fontSize={{ lg: '40px', base: '20px' }} fontWeight='bold'>CERTIFIED WEB 3.0 AND METAVERSE DEVELOPER</Heading>
+                                <Heading fontSize={{ lg: '40px', base: '10px' }} fontWeight='bold'>CERTIFIED WEB 3.0 AND METAVERSE DEVELOPER</Heading>
 
                                 <Text fontSize={{ lg: '20px', base: '12px' }}>
                                     A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar
@@ -47,7 +47,7 @@ export default function Banner() {
                                 A 15-month long hybrid programme that includes both online and onsite classes, divided into five quarters, spanning 13 weeks each.
                             </Text>
 
-                            <Link href={url} passHref>
+                            <Link href='https://portal.piaic.org/signup' passHref>
                                 <Center>
                                     <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '20px', base: '10px' }}
                                         borderRadius='20px' size={{ lg: 'lg', base: 'xs' }}>
