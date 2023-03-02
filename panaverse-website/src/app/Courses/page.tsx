@@ -80,17 +80,17 @@ export default function Courses() {
 
             <Box>
                 <Container maxW='1800px'>
-                    <SimpleGrid templateColumns='repeat(2,1fr)'>
+                    <SimpleGrid templateColumns={{ base: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }}>
                         <Center>
-                            <Box ml={{ lg: '65px', base: '17px' }} mr={{ lg: '65px', base: '17px' }}>
+                            <Box ml={{ lg: '65px', base: '17px' }} mr={{ lg: '65px', base: '17px' }} mt={{ lg: '0px', base: '20px' }}>
                                 <Heading textAlign='center'>SPECIALISATION COURSES</Heading>
-                                <Text>After completing the first three quarters, the participant will select one or more specialisation</Text>
+                                <Text textAlign='center'>After completing the first three quarters, the participant will select one or more specialisation</Text>
 
                             </Box>
                         </Center>
 
                         <Box ml={{ lg: '65x', base: '17px' }} mr={{ lg: '65px', base: '17px' }}>
-                            <SimpleGrid templateColumns='repeat(3,1fr)' gap='10px'>
+                            <SimpleGrid templateColumns={{ base: 'repeat(2,1fr)', lg: 'repeat(3,1fr)' }} gap='20px' pb={{ base: '20px', lg: '30px' }}>
 
                                 <CourseBox src='/Web3.png' heading1='W3-351: ' text1='Developing Smart Contract and DApps' heading2='MV-361: '
                                     text2='Developing Virtual and Augment Metaverse Experience' href='/Web3' />

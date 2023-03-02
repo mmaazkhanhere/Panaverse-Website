@@ -7,20 +7,20 @@ export default function CourseBox(prop: any) {
 
         <Box borderRadius='20px' bgColor='rgba(205, 227, 243, 1)' mt='20px'>
             <Container maxW={1600}>
-                <SimpleGrid templateRows='repeat(3,1fr)'>
+                <SimpleGrid templateRows='repeat(3,0.5fr)'>
 
-                    <Box>
+                    <Box pt={{ lg: '20px', base: '10px' }}>
                         <Center>
-                            <Image src={prop.src} alt='Image' width={{ base: '40px', lg: '80px' }} height={{ base: '35px', lg: '81px' }} />
+                            <Image mixBlendMode='darken' src={prop.src} alt='Image' width={{ base: '40px', lg: '80px' }} height={{ base: '35px', lg: '81px' }} />
                         </Center>
                     </Box>
 
-                    <Box textAlign='center'>
-                        <Text fontWeight='bold' fontSize={{ base: '8px', lg: '11px' }}>{prop.heading1}</Text>
-                        <Text fontSize={{ base: '8px', lg: '11px' }}>{prop.text1}</Text>
+                    <Box textAlign='center' pt={{ lg: '20px', base: '10px' }}>
+                        <Text fontWeight='bold' fontSize={{ base: '10px', lg: '13px' }}>{prop.heading1}</Text>
+                        <Text fontSize={{ base: '10px', lg: '13px' }}>{prop.text1}</Text>
 
-                        <Text fontWeight='bold' fontSize={{ base: '8px', lg: '11px' }}>{prop.heading2}</Text>
-                        <Text fontSize={{ base: '8px', lg: '11px' }}>{prop.text2}</Text>
+                        <Text fontWeight='bold' fontSize={{ base: '10px', lg: '13px' }}>{prop.heading2}</Text>
+                        <Text fontSize={{ base: '10px', lg: '13px' }}>{prop.text2}</Text>
 
                     </Box>
 
