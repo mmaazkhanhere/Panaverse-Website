@@ -2,78 +2,119 @@
 
 import React from 'react'
 import { Box, Container, Flex, SimpleGrid, Image, Heading, Text, Center, Button } from '@chakra-ui/react'
-import image from '../../../public/image.png'
 import Link from 'next/link'
+import CourseBox from '../Component/coursesBox'
 
 export default function Courses() {
     return (
-        <Box bgImage='https://www.startupindia.gov.in/content/dam/invest-india/Resources/LandD/onlineCoursesBanner.png/_jcr_content/renditions/cq5dam.web.1280.1280.png'
-            bgSize='inital' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }}>
-            <Container maxW={1800}>
-                <Box>
-                    <SimpleGrid templateColumns='repeat(2,1fr)'>
-                        <SimpleGrid templateRows='repeat(2,1fr)' gap='40px'>
+        <>
+            <Box bgImage='https://www.startupindia.gov.in/content/dam/invest-india/Resources/LandD/onlineCoursesBanner.png/_jcr_content/renditions/cq5dam.web.1280.1280.png'
+                bgSize='inital' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }} >
+                <Container maxW={1800}>
 
-                            <Center>
-                                <Box textAlign='center' textColor='white' pt='25px'>
-                                    <Heading fontSize='42px'>CORE COURSES</Heading>
-                                    <Text fontSize='20px'>Every participant of the program will start by completing three courses</Text>
-                                </Box>
-                            </Center>
-
-                            <SimpleGrid templateColumns='repeat(3,1fr)' gap='20px' textAlign='center' mb='15px'>
+                    <Box>
+                        <SimpleGrid templateColumns={{ lg: 'repeat(2,1fr)', base: 'repeat(1,1fr)' }}>
+                            <SimpleGrid templateRows='repeat(2,1fr)' gap={{ lg: '40px', base: '0px' }}>
 
                                 <Center>
-                                    <Box bgColor='white' borderRadius='15px'>
-
-                                        <Heading pt='10px' fontSize='18'>CS-101: OOPs with TypeScript</Heading>
-                                        <Text pt='5px' fontSize='14px'>Fundamentals of Object Oriented Programming using JavaScript and TypeScript</Text>
-
-                                        <Link href='/Quarter-1' passHref>
-
-                                            <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
-                                                mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
-                                                Read More
-                                            </Button>
-                                        </Link>
+                                    <Box textAlign='center' textColor='white' pt='25px'>
+                                        <Heading fontSize={{ base: '25px', lg: '42px' }}>CORE COURSES</Heading>
+                                        <Text fontSize={{ lg: '20px', base: '13px' }}>Every participant of the program will start by completing three courses</Text>
                                     </Box>
                                 </Center>
 
-                                <Center>
-                                    <Box bgColor='white' borderRadius='15px'>
+                                <SimpleGrid templateColumns='repeat(3,1fr)' gap='20px' textAlign='center' mb='15px'>
 
-                                        <Heading pt='10px' fontSize='18'>W2-201: Developing Web 2.0 Apps using Next.js 13</Heading>
-                                        <Text pt='5px' fontSize='14px'>Develop customer-facing-planet-scale website, full-stack apps, and templates</Text>
+                                    <Center>
+                                        <Box bgColor='white' borderRadius='15px'>
 
-                                        <Link href='/Quarter-1' passHref>
+                                            <Heading pt='10px' fontSize={{ lg: '18', base: '14px' }}>CS-101: OOPs with TypeScript</Heading>
+                                            <Text pt='5px' fontSize={{ lg: '14px', base: '10px' }}>Fundamentals of Object Oriented Programming using JavaScript and TypeScript</Text>
 
-                                            <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
-                                                mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
-                                                Read More
-                                            </Button>
-                                        </Link>
-                                    </Box>
-                                </Center>
+                                            <Link href='/Quarter-1' target="_blank" rel="noopener noreferrer">
+                                                <Button bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
+                                                    mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
+                                                    Read More
+                                                </Button>
+                                            </Link>
 
-                                <Center>
-                                    <Box bgColor='white' borderRadius='15px'>
+                                        </Box>
+                                    </Center>
 
-                                        <Heading pt='10px' fontSize='18'>$-101: Dollar Making Bootcamp</Heading>
-                                        <Text pt='5px' fontSize='14px'>Build templates, which will be sold on Theme Forest and Panaverse DAO marketplace</Text>
+                                    <Center>
+                                        <Box bgColor='white' borderRadius='15px'>
 
-                                        <Link href='/Quarter-1' passHref>
-                                            <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
-                                                mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
-                                                Read More
-                                            </Button>
-                                        </Link>
-                                    </Box>
-                                </Center>
+                                            <Heading fontWeight='bold' pt='10px' fontSize={{ lg: '18', base: '12px' }}>W2-201: Developing Web 2.0 Apps using Next.js 13</Heading>
+                                            <Text pt='5px' fontSize={{ lg: '14px', base: '10px' }}>Develop customer-facing-planet-scale website, full-stack apps, and templates</Text>
+
+                                            <Link href='/Quarter-1' passHref>
+
+                                                <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
+                                                    mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
+                                                    Read More
+                                                </Button>
+                                            </Link>
+                                        </Box>
+                                    </Center>
+
+                                    <Center>
+                                        <Box bgColor='white' borderRadius='15px'>
+
+                                            <Heading pt='10px' fontSize={{ lg: '18', base: '14px' }}>$-101: Dollar Making Bootcamp</Heading>
+                                            <Text pt='5px' fontSize={{ lg: '14px', base: '10px' }}> Build templates, which will be sold on Theme Forest and Panaverse DAO marketplace</Text>
+
+                                            <Link href='/Quarter-1' passHref>
+                                                <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
+                                                    mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
+                                                    Read More
+                                                </Button>
+                                            </Link>
+                                        </Box>
+                                    </Center>
+                                </SimpleGrid>
                             </SimpleGrid>
                         </SimpleGrid>
+                    </Box>
+                </Container >
+            </Box >
+
+            <Box>
+                <Container maxW='1800px'>
+                    <SimpleGrid templateColumns='repeat(2,1fr)'>
+                        <Center>
+                            <Box ml={{ lg: '65px', base: '17px' }} mr={{ lg: '65px', base: '17px' }}>
+                                <Heading textAlign='center'>SPECIALISATION COURSES</Heading>
+                                <Text>After completing the first three quarters, the participant will select one or more specialisation</Text>
+
+                            </Box>
+                        </Center>
+
+                        <Box ml={{ lg: '65x', base: '17px' }} mr={{ lg: '65px', base: '17px' }}>
+                            <SimpleGrid templateColumns='repeat(3,1fr)' gap='10px'>
+
+                                <CourseBox src='/Web3.png' heading1='W3-351: ' text1='Developing Smart Contract and DApps' heading2='MV-361: '
+                                    text2='Developing Virtual and Augment Metaverse Experience' href='/Web3' />
+
+                                <CourseBox src='/AI.png' heading1='AI-351: ' text1='Developing Intelligent APIs and Python Programming' heading2='AI-361: '
+                                    text2='Deep Learning and MLOps' href='/Web3' />
+
+                                <CourseBox src='/cloudComp.png' heading1='CN-351: ' text1='Certified Kubernetes Application Developer' heading2='CN-361: '
+                                    text2='Developing Multi-Cloud Apps using SDK' href='/Web3' />
+
+                                <CourseBox src='/Bio.png' heading1='Bio-351: ' text1='Python for Biologist' heading2='Bio-361: '
+                                    text2='Bioinformatics with Python' href='/Web3' />
+
+                                <CourseBox src='/network.png' heading1='NPA-351: ' text1='CCNA 200-301 Certification' heading2='NPA-361: '
+                                    text2='Network Programmability and Automation' href='/Web3' />
+
+                                <CourseBox src='/iot.png' heading1='AC-351: ' text1='Ambient Computing with Voicing Assistants' heading2='AC-361: '
+                                    text2='Embedded Programming using C and Rust' href='/Web3' />
+
+                            </SimpleGrid>
+                        </Box>
                     </SimpleGrid>
-                </Box>
-            </Container >
-        </Box >
+                </Container>
+            </Box>
+        </>
     )
 }

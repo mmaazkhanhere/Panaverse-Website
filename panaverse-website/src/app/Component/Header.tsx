@@ -20,9 +20,11 @@ export default function Header() {
                     </Flex>
 
                     <Box mr={{ base: '5px', lg: '55px' }}>
-                        <Button borderRadius='20px' bgColor='black' textColor='white' size={{ lg: 'lg', base: 'xs' }} float='right' mt={{ lg: '30px', base: '-35px' }}>
-                            Get Started
-                        </Button>
+                        <Link href='https://www.piaic.org/' target="_blank" rel="noopener noreferrer">
+                            <Button borderRadius='20px' bgColor='black' textColor='white' size={{ lg: 'lg', base: 'xs' }} float='right' mt={{ lg: '30px', base: '-35px' }}>
+                                Get Started
+                            </Button>
+                        </Link>
                     </Box>
 
                     <Box display={{ lg: 'none', base: 'initial' }}>

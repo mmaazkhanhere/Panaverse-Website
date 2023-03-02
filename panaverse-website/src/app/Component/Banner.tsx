@@ -1,6 +1,5 @@
 import React from 'react'
 import { Heading, Text, Box, Container, Image, Flex, Spacer, Center, SimpleGrid, Button } from '@chakra-ui/react'
-import { useHistory } from "react-router-dom";
 import Link from 'next/link';
 import { courses } from './courses';
 
@@ -47,9 +46,10 @@ export default function Banner() {
                                 A 15-month long hybrid programme that includes both online and onsite classes, divided into five quarters, spanning 13 weeks each.
                             </Text>
 
-                            <Link href='https://portal.piaic.org/signup' passHref>
+
+                            <Link href='https://portal.piaic.org/signup' target="_blank" rel="noopener noreferrer">
                                 <Center>
-                                    <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '20px', base: '10px' }}
+                                    <Button bgColor='black' textColor='white' textAlign='center' mt={{ lg: '20px', base: '10px' }}
                                         borderRadius='20px' size={{ lg: 'lg', base: 'xs' }}>
                                         Apply Now
                                     </Button>
