@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ChakraProvider>
-        <Box bgColor='background: rgba(255, 251, 244, 1)'>
+        <Box bgColor=' rgba(255, 251, 244, 1)'>
           <Header />
           {children}
           <Footer />
