@@ -1,7 +1,13 @@
-import React from 'react'
+'use client'
 
-export default function Quarter_1() {
+import React from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
+import Quarter1 from './quarter_1'
+
+export default function CoreCourses() {
     return (
-        <div>Quarter_1</div>
+        <ChakraProvider>
+            <Quarter1 />
+        </ChakraProvider>
     )
 }

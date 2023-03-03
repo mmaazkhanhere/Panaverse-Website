@@ -47,9 +47,8 @@ export default function Courses() {
                                             <Heading fontWeight='bold' pt='10px' fontSize={{ lg: '18', base: '12px' }}>W2-201: Developing Web 2.0 Apps using Next.js 13</Heading>
                                             <Text pt='5px' fontSize={{ lg: '14px', base: '10px' }}>Develop customer-facing-planet-scale website, full-stack apps, and templates</Text>
 
-                                            <Link href='/Quarter-1' passHref>
-
-                                                <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
+                                            <Link href='/Quarter-2' target="_blank" rel="noopener noreferrer">
+                                                <Button bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
                                                     mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
                                                     Read More
                                                 </Button>
@@ -63,8 +62,8 @@ export default function Courses() {
                                             <Heading pt='10px' fontSize={{ lg: '18', base: '14px' }}>$-101: Dollar Making Bootcamp</Heading>
                                             <Text pt='5px' fontSize={{ lg: '14px', base: '10px' }}> Build templates, which will be sold on Theme Forest and Panaverse DAO marketplace</Text>
 
-                                            <Link href='/Quarter-1' passHref>
-                                                <Button as="a" target='_blank' bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
+                                            <Link href='/Quarter-3' target="_blank" rel="noopener noreferrer">
+                                                <Button bgColor='black' textColor='white' textAlign='center' mt={{ lg: '10px', base: '5px' }}
                                                     mb={{ lg: '10px', base: '5px' }} borderRadius='20px' size={{ lg: 'sm', base: 'xs' }}>
                                                     Read More
                                                 </Button>
@@ -96,19 +95,19 @@ export default function Courses() {
                                     text2='Developing Virtual and Augment Metaverse Experience' href='/Web3' />
 
                                 <CourseBox src='/AI.png' heading1='AI-351: ' text1='Developing Intelligent APIs and Python Programming' heading2='AI-361: '
-                                    text2='Deep Learning and MLOps' href='/Web3' />
+                                    text2='Deep Learning and MLOps' href='/AI' />
 
                                 <CourseBox src='/cloudComp.png' heading1='CN-351: ' text1='Certified Kubernetes Application Developer' heading2='CN-361: '
-                                    text2='Developing Multi-Cloud Apps using SDK' href='/Web3' />
+                                    text2='Developing Multi-Cloud Apps using SDK' href='/Cloud' />
 
                                 <CourseBox src='/Bio.png' heading1='Bio-351: ' text1='Python for Biologist' heading2='Bio-361: '
-                                    text2='Bioinformatics with Python' href='/Web3' />
+                                    text2='Bioinformatics with Python' href='/Genomics' />
 
                                 <CourseBox src='/network.png' heading1='NPA-351: ' text1='CCNA 200-301 Certification' heading2='NPA-361: '
-                                    text2='Network Programmability and Automation' href='/Web3' />
+                                    text2='Network Programmability and Automation' href='/Network' />
 
                                 <CourseBox src='/iot.png' heading1='AC-351: ' text1='Ambient Computing with Voicing Assistants' heading2='AC-361: '
-                                    text2='Embedded Programming using C and Rust' href='/Web3' />
+                                    text2='Embedded Programming using C and Rust' href='/IoT' />
 
                             </SimpleGrid>
                         </Box>
