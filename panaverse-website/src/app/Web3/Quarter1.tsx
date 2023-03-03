@@ -155,7 +155,7 @@ export default function Quarter1() {
                 <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>3.  How to Launch a IDO on Polkastrater</Heading>
                 <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
 
-                    <Text >
+                    <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         By creating a token and related contracts, you will also learn how to handle money sent to your contracts, which should come in handy if you want to create some
                         kind of paid decentralized service in the future.
                     </Text>
@@ -177,7 +177,7 @@ export default function Quarter1() {
                 <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>4.  Develop Crowd Sale Contract</Heading>
                 <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
 
-                    <Text >
+                    <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         This contract will be responsible for allowing users to exchange ETH for our Pako Token. In order to do that we need to set a price for our token
                         (1 ETH = 100 Pako Token)
                     </Text>
@@ -214,7 +214,7 @@ export default function Quarter1() {
                 <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>5.  Trying it with MetaMask</Heading>
                 <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
 
-                    <Text >
+                    <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         While it is always good to test your code, it is often more satisfying to see the results of your work wrapped in a nice UI. Lets see how we can deploy our
                         contracts and get some Pako tokens into our MetaMask wallet
                     </Text>
