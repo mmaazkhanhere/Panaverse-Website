@@ -3,6 +3,7 @@ import { Box, Heading, Text, Button, Image, SimpleGrid, Container, Center } from
 import Link from 'next/link'
 
 export default function CourseBox(prop: any) {
+
     return (
 
         <Box borderRadius='20px' bgColor='rgba(205, 227, 243, 1)' mt='20px'>

@@ -9,7 +9,7 @@ export default function Courses() {
     return (
         <>
             <Box bgImage='https://www.startupindia.gov.in/content/dam/invest-india/Resources/LandD/onlineCoursesBanner.png/_jcr_content/renditions/cq5dam.web.1280.1280.png'
-                bgSize='inital' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }} >
+                bgSize='cover' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }} >
                 <Container maxW={1800}>
 
                     <Box>
