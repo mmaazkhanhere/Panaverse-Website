@@ -51,7 +51,7 @@ export default function Quarter2() {
 
                 <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>1. Deep Learning with Tensorflow</Heading>
                 <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
-                    - DEep Learning with Python, Second Edition
+                    - Deep Learning with Python, Second Edition
                     <br />
                     <Link href='https://www.amazon.com/Learning-Python-Second-Fran%C3%A7ois-Chollet/dp/1617296864/ref=sr_1_2' target="_blank" rel="noopener noreferrer">
                         <Text as='u' fontSize={{ lg: '20px', base: '14px' }} color='blue'>
