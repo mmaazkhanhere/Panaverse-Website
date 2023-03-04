@@ -16,7 +16,7 @@ export default function Header() {
                         <Link href='/'>Home</Link>
                         <Link href='/Courses'>Courses</Link>
                         <Link href='/aboutUs'>About Us</Link>
-                        <Link href='/'>Contact Us</Link>
+                        <Link href='/contactUs'>Contact Us</Link>
                     </Flex>
 
                     <Box mr={{ base: '5px', lg: '55px' }}>
@@ -46,7 +46,7 @@ export default function Header() {
                                     <Link href='/aboutUs'>About Us</Link>
                                 </MenuItem>
                                 <MenuItem>
-                                    <Link href='/'>Contact Us</Link>
+                                    <Link href='/contactUs'>Contact Us</Link>
                                 </MenuItem>
                             </MenuList>
                         </Menu>
