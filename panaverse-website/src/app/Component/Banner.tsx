@@ -22,11 +22,13 @@ export default function Banner() {
 
                             <Box flexBasis='50%' placeItems='center' textAlign='center' lineHeight={{ base: '17px', lg: '40px' }} mt={{ base: '5px', lg: '100px' }}>
 
+
                                 <Heading fontSize={{ lg: '40px', base: '20px' }} fontWeight='bold'>CERTIFIED WEB 3.0 AND METAVERSE DEVELOPER</Heading>
 
                                 <Text fontSize={{ lg: '20px', base: '12px' }}>
                                     A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar
                                 </Text>
+
                             </Box>
                         </SimpleGrid>
                     </Container>
