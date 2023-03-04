@@ -4,7 +4,7 @@ import React from 'react'
 import { Box, Container, SimpleGrid, Heading, Text, Image, Center, Button } from '@chakra-ui/react'
 import Link from 'next/link'
 
-export default function page() {
+export default function aboutUs() {
     return (
         <>
             <Box mt={{ base: '20px', lg: '50px' }} mb={{ base: '20px', lg: '50px' }} bgColor='rgba(245, 249, 255, 1)' borderRadius={{ base: '20px', lg: '30px' }}
