@@ -15,7 +15,7 @@ export default function Header() {
                     <Flex display={{ lg: 'flex', base: 'none' }} gap='50px' fontWeight='semibold' placeItems='center' fontSize='19px'>
                         <Link href='/'>Home</Link>
                         <Link href='/Courses'>Courses</Link>
-                        <Link href='/'>About Us</Link>
+                        <Link href='/aboutUs'>About Us</Link>
                         <Link href='/'>Contact Us</Link>
                     </Flex>
 
@@ -40,10 +40,10 @@ export default function Header() {
                                     <Link href='/'>Home</Link>
                                 </MenuItem>
                                 <MenuItem>
-                                    <Link href='/'>Courses</Link>
+                                    <Link href='/Courses'>Courses</Link>
                                 </MenuItem>
                                 <MenuItem>
-                                    <Link href='/'>About Us</Link>
+                                    <Link href='/aboutUs'>About Us</Link>
                                 </MenuItem>
                                 <MenuItem>
                                     <Link href='/'>Contact Us</Link>
