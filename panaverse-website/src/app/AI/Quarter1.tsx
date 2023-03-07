@@ -20,7 +20,7 @@ export default function Quarter1() {
 
                 {/*Course Main Headlines */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1000} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1000} distance='500px' reset={true}>
                     <Box bgColor='white' borderRadius='30px' mr={{ lg: '100px', base: '30px' }} ml={{ base: '30px', lg: '100' }}>
                         <Center>
                             <Heading textAlign='center' size={{ base: '2xl', lg: '3xl' }} fontWeight='bold'>Artificial Intelligence (AI) and Deep Learning Specialisation </Heading>
@@ -30,7 +30,7 @@ export default function Quarter1() {
 
                 {/*Quarter Heading */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1100} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1100} distance='500px' reset={true}>
                     <Box mt='15px' mr={{ lg: '580px', base: '30px' }} ml={{ base: '30px', lg: '580px' }}>
                         <Center>
                             <Heading bgColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
@@ -42,7 +42,7 @@ export default function Quarter1() {
 
                 {/*Course Heading */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1200} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1200} distance='500px' reset={true}>
                     <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
                         <Heading textAlign='center' size={{ base: 'lg', lg: 'xl' }}>
                             AI-351: Developing Planet-Scale Intelligent APIs and Python Programming
@@ -52,7 +52,7 @@ export default function Quarter1() {
 
                 {/*Week Duration */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1300} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1300} distance='500px' reset={true}>
                     <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
                         <Heading textAlign='center' size={{ base: 'md', lg: 'lg' }} fontWeight=''>Duration: 13 Weeks</Heading>
                     </Box>
@@ -61,7 +61,7 @@ export default function Quarter1() {
 
                 {/*Image */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1400} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1400} distance='500px' reset={true}>
                     <Center pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
                         <Image style={imageStyles} src={AI} alt='Aritifical Intelligence' />
                     </Center>
@@ -69,13 +69,13 @@ export default function Quarter1() {
 
                 {/*Course Description} */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1500} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1500} distance='500px' reset={true}>
                     <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '830px', base: '140px' }}>
                         <Heading as='u' size={{ base: 'sm', lg: 'lg' }}>Course Description</Heading>
                     </Box>
                 </RevealWrapper>
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1550} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1550} distance='500px' reset={true}>
                     <Text pt='20px' textAlign='justify' fontSize={{ lg: '24px', base: '16px' }}>
                         Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. The AI and Deep Learning Specialization is a
                         foundational program that will aid in your comprehension of deep learning potential, difficulties, and effects as well as equip you to take part in the creation of
@@ -83,14 +83,14 @@ export default function Quarter1() {
                     </Text>
                 </RevealWrapper>
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1600} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1600} distance='500px' reset={true}>
                     <Text pt='20px' textAlign='justify' fontSize={{ lg: '24px', base: '16px' }}>
                         We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAI’s powerful models and
                         Next.js 13
                     </Text>
                 </RevealWrapper>
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1650} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1650} distance='500px' reset={true}>
                     <Text pt='20px' textAlign='justify' fontSize={{ lg: '24px', base: '16px' }}>
                         We will conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing
                         clean and readable code with exercises for each topic. We will also learn how to make your programs interactive and how to test your code safely before adding it to a
@@ -101,7 +101,7 @@ export default function Quarter1() {
 
                 {/*Course Outlines */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1700} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1700} distance='500px' reset={true}>
                     <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '890px', base: '140px' }}>
                         <Heading mt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Course Outline</Heading>
                     </Box>

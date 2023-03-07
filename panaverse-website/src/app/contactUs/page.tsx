@@ -7,7 +7,7 @@ import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 import { FaFacebook, FaYoutube, FaTwitter, FaGithub } from 'react-icons/fa'
 import Image from 'next/image'
 import contact from '../../../public/contact.webp'
-
+import { RevealWrapper } from 'next-reveal'
 
 export default function contactUs() {
 
@@ -15,9 +15,11 @@ export default function contactUs() {
         <Box>
             <Container maxW={1800}>
 
-                <Center> {/*Place Image at the center */}
-                    <Image src={contact} alt='Contact Us'></Image>
-                </Center>
+                <RevealWrapper origin='left' delay={500} duration={1000} reset={true}>
+                    <Center> {/*Place Image at the center */}
+                        <Image src={contact} alt='Contact Us'></Image>
+                    </Center>
+                </RevealWrapper>
 
                 <SimpleGrid templateColumns={{ lg: 'repeat(2,1fr)', base: 'repeat(1,1fr)' }}> {/*For creating two or one column helping. One column if small screen and two blocks
                 when large screen */}
