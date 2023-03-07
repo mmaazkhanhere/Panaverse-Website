@@ -48,6 +48,13 @@ export default function Quarter2() {
                     </Box>
                 </RevealWrapper>
 
+                {/*Image */}
+                <RevealWrapper origin='right' delay={300} duration={1400} distance='500px' reset={true}>
+                    <Center pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
+                        <Image style={imageStyles} src={network} alt='network' />
+                    </Center>
+                </RevealWrapper>
+
                 {/*Course Description} */}
 
                 <RevealWrapper origin='right' delay={300} duration={1400} distance='500px' reset={true}>
