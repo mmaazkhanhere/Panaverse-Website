@@ -23,7 +23,7 @@ export default function Quarter2() {
                 <RevealWrapper origin='right' delay={300} duration={1100} distance='500px' reset={true}>
                     <Box mt='15px' mr={{ lg: '580px', base: '30px' }} ml={{ base: '30px', lg: '580px' }}>
                         <Center>
-                            <Heading bgColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
+                            <Heading bgColor='rgba(120, 91, 92)' textColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
                                 Quarter V
                             </Heading>
                         </Center>
@@ -33,7 +33,7 @@ export default function Quarter2() {
                 {/*Course Heading */}
 
                 <RevealWrapper origin='right' delay={300} duration={1200} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
                         <Heading textAlign='center' size={{ base: 'lg', lg: 'xl' }}>
                             Bio-361: Bioinformatics with Python
                         </Heading>
@@ -43,7 +43,7 @@ export default function Quarter2() {
                 {/*Week Duration */}
 
                 <RevealWrapper origin='right' delay={300} duration={1300} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
                         <Heading textAlign='center' size={{ base: 'md', lg: 'lg' }} fontWeight=''>Duration: 13 Weeks</Heading>
                     </Box>
                 </RevealWrapper>
@@ -58,7 +58,7 @@ export default function Quarter2() {
                 {/*Course Description} */}
 
                 <RevealWrapper origin='right' delay={300} duration={1500} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '830px', base: '140px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '830px', base: '140px' }}>
                         <Heading as='u' size={{ base: 'sm', lg: 'lg' }}>Course Description</Heading>
                     </Box>
                     <Text pt='20px' textAlign='justify' fontSize={{ lg: '24px', base: '16px' }}>

@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <>
 
-            <Box bgColor=' rgba(245, 249, 255, 1)' borderRadius='30px' mr={{ lg: '100px', base: '50px' }} ml={{ base: '50px', lg: '100' }}>
+            <Box bgColor='rgba(189, 170, 171, 0.5)' borderRadius='30px' mr={{ lg: '100px', base: '50px' }} ml={{ base: '50px', lg: '100' }} pb={{ lg: '50px', base: '20px' }}>
                 {/*Banner Box */}
                 <Center>
                     <Container maxW='1800px'>
@@ -44,7 +44,7 @@ export default function Banner() {
                     <SimpleGrid templateRows={{ base: 'repeat(2,1fr)', lg: 'none' }} templateColumns={{ lg: 'repeat(2,1fr)', base: 'none' }} gap={{ lg: '50px', base: '0px' }}>
 
                         <RevealWrapper origin='top' delay={200} duration={3000} distance='500px' reset={true}>
-                            <Box bgColor=' rgba(245, 249, 255, 1)' borderRadius='30px' pt={{ base: '30px', lg: '70px' }}>
+                            <Box bgColor='rgba(189, 170, 171, 0.5)' pb={{ base: '20px', lg: '50px' }} borderRadius='30px' pt={{ base: '30px', lg: '70px' }}>
                                 {/*Course Main Heading Box */}
                                 <Heading fontSize={{ lg: '40px', base: '20px' }} fontWeight='bold' textAlign='center'>SPECIALISATION WE OFFER</Heading>
 

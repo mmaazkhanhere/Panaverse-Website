@@ -23,7 +23,7 @@ export default function Quarter2() {
                 <RevealWrapper origin='top' delay={300} duration={1100} distance='500px' reset={true}>
                     <Box mt='15px' mr={{ lg: '460px', base: '30px' }} ml={{ base: '30px', lg: '460px' }}>
                         <Center>
-                            <Heading bgColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
+                            <Heading bgColor='rgba(120, 91, 92)' textColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
                                 Quarter V
                             </Heading>
                         </Center>
@@ -33,7 +33,7 @@ export default function Quarter2() {
                 {/*Course Heading */}
 
                 <RevealWrapper origin='top' delay={300} duration={1200} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
                         <Heading textAlign='center' size={{ base: 'lg', lg: 'xl' }}>
                             CN-361: Developing Mulit-Cloud APIs using CDK for Terraform
                         </Heading>
@@ -43,7 +43,7 @@ export default function Quarter2() {
                 {/*Week Duration */}
 
                 <RevealWrapper origin='top' delay={300} duration={1300} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
                         <Heading textAlign='center' size={{ base: 'md', lg: 'lg' }} fontWeight=''>Duration: 13 Weeks</Heading>
                     </Box>
                 </RevealWrapper>
@@ -59,7 +59,7 @@ export default function Quarter2() {
                 {/*Course Description} */}
 
                 <RevealWrapper origin='top' delay={300} duration={1500} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '830px', base: '140px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '830px', base: '140px' }}>
                         <Heading as='u' size={{ base: 'sm', lg: 'lg' }}>Course Description</Heading>
                     </Box>
                 </RevealWrapper>
@@ -82,7 +82,7 @@ export default function Quarter2() {
                 {/*Course Outlines */}
 
                 <RevealWrapper origin='top' delay={300} duration={1580} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '890px', base: '140px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '890px', base: '140px' }}>
                         <Heading mt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Course Outline</Heading>
                     </Box>
                 </RevealWrapper>

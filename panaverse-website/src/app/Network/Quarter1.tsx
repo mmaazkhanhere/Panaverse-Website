@@ -21,7 +21,7 @@ export default function Quarter1() {
                 {/*Course Main Headlines */}
 
                 <RevealWrapper origin='left' delay={300} duration={1000} distance='500px' reset={true}>
-                    <Box bgColor='white' borderRadius='30px' mr={{ lg: '100px', base: '30px' }} ml={{ base: '30px', lg: '100' }}>
+                    <Box bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '100px', base: '30px' }} ml={{ base: '30px', lg: '100' }}>
                         <Center>
                             <Heading textAlign='center' size={{ base: '2xl', lg: '3xl' }} fontWeight='bold'>Network Programmability and Automation Specialisation</Heading>
                         </Center>
@@ -33,7 +33,7 @@ export default function Quarter1() {
                 <RevealWrapper origin='right' delay={300} duration={1100} distance='500px' reset={true}>
                     <Box mt='15px' mr={{ lg: '580px', base: '30px' }} ml={{ base: '30px', lg: '580px' }}>
                         <Center>
-                            <Heading bgColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
+                            <Heading bgColor='rgba(120, 91, 92)' textColor='white' textAlign='center' size={{ base: 'lg', lg: 'xl' }} borderRadius='30px' >
                                 Quarter IV
                             </Heading>
                         </Center>
@@ -43,7 +43,7 @@ export default function Quarter1() {
                 {/*Course Heading */}
 
                 <RevealWrapper origin='right' delay={300} duration={1200} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '300px', base: '30px' }} ml={{ base: '30px', lg: '300px' }}>
                         <Heading textAlign='center' size={{ base: 'lg', lg: 'xl' }}>
                             NPA-351: CCNA 200-301 Certification
                         </Heading>
@@ -53,7 +53,7 @@ export default function Quarter1() {
                 {/*Week Duration */}
 
                 <RevealWrapper origin='right' delay={300} duration={1300} distance='500px' reset={true}>
-                    <Box mt='15px' bgColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
+                    <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '420px', base: '30px' }} ml={{ base: '30px', lg: '420px' }}>
                         <Heading textAlign='center' size={{ base: 'md', lg: 'lg' }} fontWeight=''>Duration: 13 Weeks</Heading>
                     </Box>
                 </RevealWrapper>
@@ -68,7 +68,7 @@ export default function Quarter1() {
                 {/*Course Description} */}
 
                 <RevealWrapper origin='right' delay={300} duration={1500} distance='500px' reset={true}>
-                    <Heading pt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Course Description</Heading>
+                    <Heading bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Course Description</Heading>
 
                     <Text pt='20px' textAlign='justify' fontSize={{ lg: '24px', base: '16px' }}>
                         This course will focus on learning the basics of the networking and preparing for the new Cisco Certified Network Associate (CCNA) exam. This comprehensive course
