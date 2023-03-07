@@ -17,7 +17,7 @@ export default function Courses() {
                             <SimpleGrid templateRows='repeat(2,1fr)' gap={{ lg: '40px', base: '0px' }}>
 
                                 <Center>
-                                    <RevealWrapper delay={200} duration={1000} distance='500px' reset={true}>
+                                    <RevealWrapper delay={200} duration={3000} distance='500px' reset={true}>
                                         <Box textAlign='center' textColor='white' pt='25px'>
                                             <Heading fontSize={{ base: '25px', lg: '42px' }}>CORE COURSES</Heading>
                                             <Text fontSize={{ lg: '20px', base: '13px' }}>Every participant of the program will start by completing three courses</Text>

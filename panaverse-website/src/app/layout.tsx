@@ -15,13 +15,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <ChakraProvider>
+      <body>
         <Box bgColor='rgba(255, 251, 244, 1)'>
-          <Header />
-          {children}
-          <Footer />
+
+          <ChakraProvider>
+            <Header />
+            {children}
+            <Footer />
+          </ChakraProvider>
         </Box>
-      </ChakraProvider>
+      </body>
     </html>
   )
 }

@@ -27,14 +27,13 @@ export default function Header() {
                         </Link>
                     </Box>
 
-                    <Box display={{ lg: 'none', base: 'initial' }}>
-                        <Menu>
-                            <MenuButton as={IconButton}
-                                float='left'
+                    <Box pt='20px' display={{ lg: 'none', base: 'initial' }} pb='10px'>
+                        <Menu  >
+                            <MenuButton float='left'
+                                as={IconButton}
                                 aria-label='Options'
                                 icon={<HamburgerIcon />}
-                                variant='menu' />
-
+                                variant='outline' />
                             <MenuList>
                                 <MenuItem>
                                     <Link href='/'>Home</Link>
