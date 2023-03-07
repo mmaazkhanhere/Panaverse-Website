@@ -1,15 +1,15 @@
 'use client'
 
 import React from 'react'
-import { Box, Container, Flex, SimpleGrid, Image, Heading, Text, Center, Button } from '@chakra-ui/react'
+import { Box, Container, SimpleGrid, Heading, Text, Center, Button } from '@chakra-ui/react'
 import Link from 'next/link'
 import CourseBox from '../Component/coursesBox'
+import { RevealWrapper } from 'next-reveal'
 
 export default function Courses() {
     return (
         <>
-            <Box bgImage='https://www.startupindia.gov.in/content/dam/invest-india/Resources/LandD/onlineCoursesBanner.png/_jcr_content/renditions/cq5dam.web.1280.1280.png'
-                bgSize='cover' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }} >
+            <Box bgImage={`url('/courseBG.png')`} bgSize='cover' borderRadius='30px' ml={{ lg: '80px', base: '17px' }} mr={{ lg: '80px', base: '17px' }} >
                 <Container maxW={1800}>
 
                     <Box>
@@ -17,11 +17,14 @@ export default function Courses() {
                             <SimpleGrid templateRows='repeat(2,1fr)' gap={{ lg: '40px', base: '0px' }}>
 
                                 <Center>
-                                    <Box textAlign='center' textColor='white' pt='25px'>
-                                        <Heading fontSize={{ base: '25px', lg: '42px' }}>CORE COURSES</Heading>
-                                        <Text fontSize={{ lg: '20px', base: '13px' }}>Every participant of the program will start by completing three courses</Text>
-                                    </Box>
+                                    <RevealWrapper delay={200} duration={1000} distance='500px' reset={true}>
+                                        <Box textAlign='center' textColor='white' pt='25px'>
+                                            <Heading fontSize={{ base: '25px', lg: '42px' }}>CORE COURSES</Heading>
+                                            <Text fontSize={{ lg: '20px', base: '13px' }}>Every participant of the program will start by completing three courses</Text>
+                                        </Box>
+                                    </RevealWrapper>
                                 </Center>
+
 
                                 <SimpleGrid templateColumns='repeat(3,1fr)' gap='20px' textAlign='center' mb='15px'>
 

@@ -1,12 +1,9 @@
 import React from 'react'
-import { Heading, Text, Box, Container, Image, Flex, Spacer, Center, SimpleGrid, Button } from '@chakra-ui/react'
+import { Heading, Text, Box, Container, Image, Center, SimpleGrid, Button } from '@chakra-ui/react'
 import Link from 'next/link';
 import { courses } from './courses';
 
 export default function Banner() {
-
-    const url = 'https://portal.piaic.org/signup';
-
     return (
         <>
 
