@@ -54,7 +54,7 @@ export default function Quarter1() {
 
                 <RevealWrapper origin='right' delay={300} duration={1300} distance='500px' reset={true}>
                     <Center mb={10} pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
-                        <Image style={imageStyles} src={voice} alt='Kubernetes Developer' />
+                        <Image style={{ imageStyles }} src={voice} alt='Kubernetes Developer' />
                     </Center>
                 </RevealWrapper>
 

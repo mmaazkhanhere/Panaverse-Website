@@ -8,10 +8,6 @@ import { RevealWrapper } from 'next-reveal'
 
 export default function Quarter1() {
 
-    const imageStyles = {
-        mixBlendMode: 'darken'
-    }
-
     return (
         <Box mt={{ base: '20px', lg: '50px' }} mb={{ base: '20px', lg: '50px' }} bgColor='rgba(189, 170, 171, 0.5)' borderRadius={{ base: '20px', lg: '30px' }}
             mr={{ lg: '100px', base: '30px' }} ml={{ base: '30px', lg: '100' }} pb={{ base: '20px', lg: '50px' }}>
@@ -60,7 +56,7 @@ export default function Quarter1() {
                 {/*Image */}
                 <RevealWrapper origin='right' delay={300} duration={1400} distance='500px' reset={true}>
                     <Center pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
-                        <Image style={imageStyles} src={CCNA} alt='CCNA' />
+                        <Image src={CCNA} alt='CCNA' />
                     </Center>
                 </RevealWrapper>
 

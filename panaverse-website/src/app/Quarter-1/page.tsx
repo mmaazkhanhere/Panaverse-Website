@@ -9,9 +9,6 @@ import { RevealWrapper } from 'next-reveal'
 
 export default function Quarter1() {
 
-    const imageStyles = {
-        mixBlendMode: 'darken'
-    }
     return (
         <>
             <Box mt={{ base: '20px', lg: '50px' }} mb={{ base: '20px', lg: '50px' }} bgColor='rgba(189, 170, 171, 0.5)' borderRadius={{ base: '20px', lg: '30px' }}
@@ -52,7 +49,7 @@ export default function Quarter1() {
 
                     <RevealWrapper origin='left' delay={300} duration={1250} distance='500px' reset={true}>
                         <Center pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
-                            <Image src={web} alt='Web Developmennt Image' style={imageStyles} />
+                            <Image src={web} alt='Web Developmennt Image' />
                         </Center>
                     </RevealWrapper>
 

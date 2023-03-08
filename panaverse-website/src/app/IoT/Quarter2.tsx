@@ -52,7 +52,7 @@ export default function Quarter2() {
 
                 <RevealWrapper origin='right' delay={300} duration={1450} distance='500px' reset={true}>
                     <Center mb={10} pt='20px' borderRadius={{ lg: '30', base: '20px' }}>
-                        <Image style={imageStyles} src={C} alt='C Programming' />
+                        <Image style={{ imageStyles }} src={C} alt='C Programming' />
                     </Center>
                 </RevealWrapper>
 
