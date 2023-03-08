@@ -70,7 +70,7 @@ export default function Quarter2() {
 
                 {/*Course Outlines */}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1600} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1600} distance='500px' reset={true}>
                     <Box mt='15px' bgColor='rgba(120, 91, 92)' textColor='white' borderRadius='30px' mr={{ lg: '890px', base: '140px' }}>
                         <Heading mt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Course Outline</Heading>
                     </Box>
@@ -79,7 +79,7 @@ export default function Quarter2() {
 
                 {/*1st Task*/}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1600} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1600} distance='500px' reset={true}>
                     <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>1. Deep Learning with Tensorflow</Heading>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - Deep Learning with Python, Second Edition
@@ -94,7 +94,7 @@ export default function Quarter2() {
 
                 {/*2 Task*/}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1650} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1650} distance='500px' reset={true}>
                     <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>2. Machine Learning Engineering for Production (MLOps) using Terraform for CDK </Heading>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - A Comprehensive Guide to MLOps Terraform: Infrastructure As Code(IaC)
@@ -107,7 +107,7 @@ export default function Quarter2() {
                     </Text>
                 </RevealWrapper>
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1660} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1660} distance='500px' reset={true}>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - MLOps leveraging AWS SageMaker and Terraform
                         <br />

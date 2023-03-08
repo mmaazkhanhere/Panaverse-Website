@@ -12,7 +12,7 @@ export default function Banner() {
                 {/*Banner Box */}
                 <Center>
                     <Container maxW='1800px'>
-                        <SimpleGrid SimpleGrid templateColumns={{ lg: 'repeat(2,1fr)', base: 'repeat(1,1fr)' }}>
+                        <SimpleGrid templateColumns={{ lg: 'repeat(2,1fr)', base: 'repeat(1,1fr)' }}>
 
                             <RevealWrapper origin='left' delay={200} duration={2000} distance='500px' reset={true}>
 

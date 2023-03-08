@@ -283,7 +283,7 @@ export default function Quarter1() {
 
                     <RevealWrapper origin='left' delay={300} duration={1750} distance='500px' reset={true}>
                         <Heading bgColor='rgba(120, 91, 92)' textColor='white' borderRadius={30} mt='20px' as='u' size={{ base: 'sm', lg: 'lg' }}>Quizzes</Heading>
-                        <Text Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
+                        <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                             - Fundamentals of JavaScript and Node.js Quiz
                             <br />
                             - Fundamentals of TypeScript Quiz

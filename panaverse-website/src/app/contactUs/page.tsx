@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Box, Container, SimpleGrid, Heading, Text, Center, Button, Icon, HStack } from '@chakra-ui/react'
+import { Box, Container, SimpleGrid, Heading, Text, Center, Icon, HStack } from '@chakra-ui/react'
 import Link from 'next/link'
 import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 import { FaFacebook, FaYoutube, FaTwitter, FaGithub } from 'react-icons/fa'

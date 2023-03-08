@@ -105,7 +105,7 @@ export default function Quarter1() {
 
                 {/*1st Task*/}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1710} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1710} distance='500px' reset={true}>
                     <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>1. Introduction to Machine Learning, Data Science, and AI</Heading>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - AI for Everyone
@@ -120,7 +120,7 @@ export default function Quarter1() {
 
                 {/*2 Task*/}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1720} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1720} distance='500px' reset={true}>
                     <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>2. Building Next-Gen Intelligent Apps with OpenAIs Powerful Models. </Heading>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - We will cover GPT-4, ChatGPT, etc. and Next.js 13
@@ -141,7 +141,7 @@ export default function Quarter1() {
                 </RevealWrapper>
                 {/*3 Task*/}
 
-                <RevealWrapper origin={{ lg: 'top', base: 'right' }} delay={300} duration={1730} distance='500px' reset={true}>
+                <RevealWrapper origin='right' delay={300} duration={1730} distance='500px' reset={true}>
                     <Heading pt='10px' size={{ base: 'xs', lg: 'md' }}>3. Python Crash Course for TypeScript Developers</Heading>
                     <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
                         - Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming 2nd Edition
