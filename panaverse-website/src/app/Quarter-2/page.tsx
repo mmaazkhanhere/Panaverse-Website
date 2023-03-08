@@ -90,17 +90,17 @@ export default function Quarter2() {
                         </Text>
                     </RevealWrapper>
 
-                    <RevealWrapper origin='left' delay={300} duration={1420} distance='500px' reset={true}></RevealWrapper>
-
-                    <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
-                        - Latest Learn React Official Website
-                        <br />
-                        <Link href='https://beta.reactjs.org/learn ' target="_blank" rel="noopener noreferrer">
-                            <Text as='u' fontSize={{ lg: '20px', base: '14px' }} color='blue'>
-                                https://beta.reactjs.org/learn
-                            </Text>
-                        </Link>
-                    </Text>
+                    <RevealWrapper origin='left' delay={300} duration={1420} distance='500px' reset={true}>
+                        <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>
+                            - Latest Learn React Official Website
+                            <br />
+                            <Link href='https://beta.reactjs.org/learn ' target="_blank" rel="noopener noreferrer">
+                                <Text as='u' fontSize={{ lg: '20px', base: '14px' }} color='blue'>
+                                    https://beta.reactjs.org/learn
+                                </Text>
+                            </Link>
+                        </Text>
+                    </RevealWrapper>
 
                     <RevealWrapper origin='left' delay={300} duration={1430} distance='500px' reset={true}>
                         <Text pt='10px' fontSize={{ lg: '24px', base: '16px' }}>

@@ -64,8 +64,8 @@ export default function contactUs() {
                         {/*Twitter Page */}
 
                         <RevealWrapper origin='left' delay={500} duration={1400} reset={true}>
-                            <HStack pl={{ base: '10px', lg: '20px' }} pt='10px' target='_blank'>
-                                <Link href='https://twitter.com/Panaverse_edu' >
+                            <HStack pl={{ base: '10px', lg: '20px' }} pt='10px' >
+                                <Link href='https://twitter.com/Panaverse_edu' target='_blank'>
                                     <Icon pt='10px' as={FaTwitter} boxSize={{ base: '6', lg: '10' }} />
                                 </Link>
                                 <Link href='https://twitter.com/Panaverse_edu' >
@@ -77,8 +77,8 @@ export default function contactUs() {
                         {/*GitHub Page */}
 
                         <RevealWrapper origin='left' delay={500} duration={1500} reset={true}>
-                            <HStack pl={{ base: '10px', lg: '20px' }} pt='10px' target='_blank'>
-                                <Link href='https://github.com/panaverse' >
+                            <HStack pl={{ base: '10px', lg: '20px' }} pt='10px' >
+                                <Link href='https://github.com/panaverse' target='_blank'>
                                     <Icon pt='10px' as={FaGithub} boxSize={{ base: '6', lg: '10' }} />
                                 </Link>
                                 <Link href='https://github.com/panaverse' >
